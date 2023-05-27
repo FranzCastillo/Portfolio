@@ -2,8 +2,22 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div>
+        <div className={"about"} id={"about"}>
             <h1>About Page</h1>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
+            <p>This is the About page.</p>
             <p>This is the About page.</p>
         </div>
     );
