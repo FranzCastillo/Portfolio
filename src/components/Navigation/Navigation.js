@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
-import { Link as ScrollLink } from 'react-scroll';
+import {Link as ScrollLink} from 'react-scroll';
 import './Navigation.scss';
 
 const pages = ['INICIO', 'SOBRE MÍ', 'EXPERIENCIA', 'PROYECTOS', 'CONTACTO'];
@@ -30,7 +30,7 @@ function ResponsiveAppBar() {
     return (
         <AppBar
             position="sticky"
-            style={{ backgroundColor: '#865DFF' }}
+            style={{backgroundColor: '#865DFF'}}
         >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
@@ -61,7 +61,7 @@ function ResponsiveAppBar() {
                             onClick={handleOpenNavMenu}
                             color="inherit"
                         >
-                        <MenuIcon/>
+                            <MenuIcon/>
                         </IconButton>
                         <Menu
                             id="menu-appbar"
