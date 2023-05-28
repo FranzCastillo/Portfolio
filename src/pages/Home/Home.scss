@@ -1,4 +1,28 @@
 @import "../../styles/Variables";
 
 .home {
+  .title {
+    font-weight: 700;
+    letter-spacing: .1rem;
+
+    #name {
+      animation: blink-animation 4s infinite;
+
+      &:hover {
+        animation: none;
+      }
+    }
+  }
+}
+
+@keyframes blink-animation {
+  0% {
+    color: $primary-color;
+  }
+  50% {
+    color: $accent-color;
+  }
+  100% {
+    color: $primary-color;
+  }
 }
