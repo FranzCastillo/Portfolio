@@ -5,6 +5,32 @@ const Contact = () => {
         <div className={"contact"} id={"contact"}>
             <h1>Contact Page</h1>
             <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
+            <p>This is the Contact page.</p>
         </div>
     );
 }
