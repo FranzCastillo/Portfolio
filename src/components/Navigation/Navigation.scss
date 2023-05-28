@@ -1,17 +1,27 @@
-.navBar{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    background-color: #fff;
-    padding: 0 20px;
-    height: 70px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-  .active{
-    color: red;
+@import "../../styles/Variables";
+
+.navigationContainer {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: $secondary-color;
+  color: $text-color;
+
+  .navBar {
+    .navLinks {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 15px;
+      margin: 0;
+
+      .active {
+        color: #bbfffb;
+      }
+
+      > * {
+        margin-right: 1rem;
+      }
+    }
   }
 }
