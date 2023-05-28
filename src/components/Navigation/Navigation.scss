@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.nav-link:hover {
+  color: $text-color;
+  background-color: #6833ff;
+}
+
+.active {
+  color: $accent-color;
+}

@@ -11,8 +11,9 @@ import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import { Link as ScrollLink } from 'react-scroll';
+import './Navigation.scss';
 
-const pages = ['Inicio', 'Sobre mí', 'Experiencia', 'Proyectos', 'Contacto'];
+const pages = ['INICIO', 'SOBRE MÍ', 'EXPERIENCIA', 'PROYECTOS', 'CONTACTO'];
 const pagesId = ['home', 'about', 'experience', 'projects', 'contact']
 
 function ResponsiveAppBar() {
@@ -127,9 +128,6 @@ function ResponsiveAppBar() {
                         '> *': {
                             mx: 2,
                         },
-                        '.active': {
-                            color: '#ffd058'
-                        }
                     }}>
                         {pages.map((page) => (
                             <ScrollLink
@@ -139,14 +137,12 @@ function ResponsiveAppBar() {
                                 smooth={true}
                                 duration={500}
                                 onClick={handleCloseNavMenu}
-                                sx={{
-                                    color: 'white',
+                                style={{
                                     display: 'block',
-                                    textTransform: 'uppercase',
-                                    '&:hover': {
-                                        backgroundColor: 'rgba(0, 0, 0, 0.2)',
-                                    },
+                                    cursor: 'pointer',
+                                    transition: 'background-color 0.2s ease-in-out',
                                 }}
+                                className={"nav-link"}
                             >
                                 {page}
                             </ScrollLink>
