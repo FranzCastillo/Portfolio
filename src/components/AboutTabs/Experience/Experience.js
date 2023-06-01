@@ -6,6 +6,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import "../HardSkills/SkillsAccordion/SkillsAccordion.scss";
+import ExperienceList from "./ExperienceList/ExperienceList";
 
 export default function Experience() {
     const [expanded, setExpanded] = React.useState(false);
@@ -41,7 +42,11 @@ export default function Experience() {
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-
+                    <ExperienceList
+                        items={[
+                            "Profesor auxiliar de Algoritmos y Estructuras de Datos",
+                        ]}
+                    />
                 </AccordionDetails>
             </Accordion>
             <Accordion
@@ -68,7 +73,13 @@ export default function Experience() {
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-
+                    <ExperienceList
+                        items={[
+                            "2x Estudiante con Honor el Mérito Académico",
+                            "Promedio global actual: 92",
+                            "Bachiller en Ciencias y Letras con Orientación en Computación",
+                        ]}
+                    />
                 </AccordionDetails>
             </Accordion>
             <Accordion
@@ -95,7 +106,11 @@ export default function Experience() {
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-
+                    <ExperienceList
+                        items={[
+                            "Certificado de Liderazgo Franklin Covey",
+                        ]}
+                    />
                 </AccordionDetails>
             </Accordion>
         </div>
