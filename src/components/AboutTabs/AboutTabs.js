@@ -6,6 +6,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import EducationTimeline from "./Education/EducationTimeline";
+import SkillsAccordion from "./HardSkills/SkillsAccordion";
 
 function TabPanel(props) {
     const {children, value, index, ...other} = props;
@@ -19,7 +20,7 @@ function TabPanel(props) {
             {...other}
         >
             {value === index && (
-                <Box sx={{p: 3}}>
+                <Box sx={{p: 3, padding: '5px'}}>
                     <Typography>{children}</Typography>
                 </Box>
             )}
@@ -66,6 +67,7 @@ export default function AboutTabs() {
                 <EducationTimeline/>
             </TabPanel>
             <TabPanel value={value} index={1}>
+                <SkillsAccordion />
             </TabPanel>
             <TabPanel value={value} index={2}>
             </TabPanel>

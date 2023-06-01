@@ -1,0 +1,9 @@
+@import "../../../styles/Variables";
+
+.accordion{
+  padding: 0;
+
+  .panel{
+    background-color: $primary-color;
+  }
+}
