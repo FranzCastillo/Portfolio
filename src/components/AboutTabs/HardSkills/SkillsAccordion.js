@@ -36,7 +36,7 @@ export default function ControlledAccordions() {
                         Lenguajes de programación
                     </Typography>
                     <Typography
-                        sx={{color: 'text.secondary'}}>
+                        sx={{color: '#e6c4fd'}}>
                         Lenguajes para implementación de soluciones
                     </Typography>
                 </AccordionSummary>
@@ -66,7 +66,7 @@ export default function ControlledAccordions() {
                     >
                         Desarrollo Web
                     </Typography>
-                    <Typography sx={{color: 'text.secondary'}}>
+                    <Typography sx={{color: '#e6c4fd'}}>
                         Frontend y Backend
                     </Typography>
                 </AccordionSummary>
@@ -97,7 +97,7 @@ export default function ControlledAccordions() {
                     >
                         Bases de Datos
                     </Typography>
-                    <Typography sx={{color: 'text.secondary'}}>
+                    <Typography sx={{color: '#e6c4fd'}}>
                         Herramientas para la creación y administracion de Bases de Datos
                     </Typography>
                 </AccordionSummary>
@@ -127,7 +127,7 @@ export default function ControlledAccordions() {
                     >
                         Análisis y Visualización de Datos
                     </Typography>
-                    <Typography sx={{color: 'text.secondary'}}>
+                    <Typography sx={{color: '#e6c4fd'}}>
                         Tecnologías con las que presenta experiencia
                     </Typography>
                 </AccordionSummary>

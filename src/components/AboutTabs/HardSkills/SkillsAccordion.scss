@@ -4,6 +4,8 @@
   padding: 0;
 
   .panel{
-    background-color: $primary-color;
+    color: $text-color;
+    background-color: $background-color;
+    border: 0.5px solid rgba(96, 40, 255, 0.1);
   }
 }
