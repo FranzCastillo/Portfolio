@@ -12,12 +12,6 @@
     "node": true
   },
   "rules": {
-    "react/forbid-prop-types": [
-      "error",
-      {
-        "forbid": ["any", "object"]
-      }
-    ],
     "semi": [
       "error",
       "always"
