@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import './Contact.scss';
 
 const Contact = () => {
@@ -40,7 +41,14 @@ const Contact = () => {
                             sx={{
                                 fontSize: '3rem',
                                 color: '#FFD166',
-                                marginRight: '10px',
+                            }}
+                        />
+                    </a>
+                    <a href={"https://github.com/FranzCastillo"}>
+                        <GitHubIcon
+                            sx={{
+                                fontSize: '3rem',
+                                color: '#FFD166',
                             }}
                         />
                     </a>
@@ -49,7 +57,6 @@ const Contact = () => {
                             sx={{
                                 fontSize: '3rem',
                                 color: '#FFD166',
-                                marginLeft: '10px',
                             }}
                         />
                     </a>
