@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import EducationTimeline from "./Education/EducationTimeline";
 import SkillsAccordion from "./HardSkills/SkillsAccordion/SkillsAccordion";
+import SoftSkillsDisplay from "./SoftSkills/SoftSkillsDisplay";
 
 function TabPanel(props) {
     const {children, value, index, ...other} = props;
@@ -74,6 +75,7 @@ export default function AboutTabs() {
                 <SkillsAccordion />
             </TabPanel>
             <TabPanel value={value} index={2}>
+                <SoftSkillsDisplay  />
             </TabPanel>
         </Box>
     );
