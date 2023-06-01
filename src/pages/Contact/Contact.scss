@@ -1,0 +1,21 @@
+.reach-me-container {
+  .reach-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title {
+      font-weight: 700;
+      letter-spacing: .1rem;
+    }
+  }
+
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
