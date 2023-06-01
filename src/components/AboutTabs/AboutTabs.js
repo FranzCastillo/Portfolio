@@ -8,6 +8,7 @@ import Box from '@mui/material/Box';
 import EducationTimeline from "./Education/EducationTimeline";
 import SkillsAccordion from "./HardSkills/SkillsAccordion/SkillsAccordion";
 import SoftSkillsDisplay from "./SoftSkills/SoftSkillsDisplay";
+import Experience from "./Experience/Experience";
 
 function TabPanel(props) {
     const {children, value, index, ...other} = props;
@@ -51,30 +52,39 @@ export default function AboutTabs() {
 
     return (
         <Box sx={{width: '100%'}}>
-            <Box sx={{borderBottom: 1, borderColor: 'rgba(86,35,141,0.8)'}}>
+            <Box sx={{
+                borderBottom: 1,
+                borderColor: 'rgba(86,35,141,0.8)',
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+            }}>
                 <Tabs
                     value={value}
                     onChange={handleChange}
                     aria-label="Tabs About Franz"
-                    // variant="scrollable"
-                    // scrollButtons="auto"
+                    variant="scrollable"
+                    scrollButtons="auto"
                     keepMounted={true}
-                    centered={true}
                     textColor={"inherit"}
                     indicatorColor={"secondary"}
                 >
                     <Tab label="Educación" {...a11yProps(0)} />
-                    <Tab label="Hard Skills" {...a11yProps(1)} />
-                    <Tab label="Soft Skills" {...a11yProps(2)} />
+                    <Tab label="Experiencia" {...a11yProps(1)} />
+                    <Tab label="Hard Skills" {...a11yProps(2)} />
+                    <Tab label="Soft Skills" {...a11yProps(3)} />
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
                 <EducationTimeline/>
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <SkillsAccordion />
+                <Experience />
             </TabPanel>
             <TabPanel value={value} index={2}>
+                <SkillsAccordion />
+            </TabPanel>
+            <TabPanel value={value} index={3}>
                 <SoftSkillsDisplay  />
             </TabPanel>
         </Box>

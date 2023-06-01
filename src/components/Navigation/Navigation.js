@@ -13,8 +13,8 @@ import LogoDevIcon from '@mui/icons-material/LogoDev';
 import {Link as ScrollLink} from 'react-scroll';
 import './Navigation.scss';
 
-const pages = ['INICIO', 'SOBRE MÍ', 'EXPERIENCIA', 'PROYECTOS', 'CONTACTO'];
-const pagesId = ['home', 'about', 'experience', 'projects', 'contact']
+const pages = ['INICIO', 'SOBRE MÍ', 'PROYECTOS', 'CONTACTO'];
+const pagesId = ['home', 'about', 'projects', 'contact']
 
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
