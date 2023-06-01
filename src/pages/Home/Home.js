@@ -34,7 +34,7 @@ const Home = () => {
                 variant="h5"
                 component="h2"
                 gutterBottom>
-                Alch, no se que poner aquí.😅
+                Muchos me conocen como <span id={"nickname"}>Franz.</span>👨‍💻
             </Typography>
         </Container>
     );

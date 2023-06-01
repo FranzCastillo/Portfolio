@@ -5,6 +5,14 @@
     font-weight: 700;
     letter-spacing: .1rem;
 
+    #nickname{
+        animation: blink-animation 4s infinite;
+
+        &:hover {
+            animation: none;
+        }
+    }
+
     #name {
       animation: blink-animation 4s infinite;
 
