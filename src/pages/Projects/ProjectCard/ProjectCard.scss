@@ -4,7 +4,6 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   margin: 1rem;
   padding: 1rem;
@@ -22,11 +21,21 @@
   }
 
   .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    h3 {
+      margin-bottom: 0;
+    }
 
     .links {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+
       a {
         text-decoration: none;
         color: $accent-color;

@@ -1,8 +1,8 @@
 import React from 'react';
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import Grid from '@mui/material/Grid';
 import CalcImg from '../../assets/images/calc.png';
+import Bliss from '../../assets/images/bliss.png';
 import ProjectCard from "./ProjectCard/ProjectCard";
 
 import './Projects.scss';
@@ -45,11 +45,11 @@ const Projects = () => {
                         demoLink={"https://stw-lab9.web.app"}
                     />
                     <ProjectCard
-                        title={"Calculadora en Línea"}
-                        description={"Calculadora en línea con las operaciones básicas"}
-                        image={CalcImg}
-                        githubLink={"https://github.com/FranzCastillo/STW-Lab9-Calculadora"}
-                        demoLink={"https://stw-lab9.web.app"}
+                        title={"Bliss"}
+                        description={"Desarrollo de la página de venta en línea y administración para todas aquellas personas involucradas con la empresa, desde los clientes hasta los encargados."}
+                        image={Bliss}
+                        githubLink={"https://github.com/FranzCastillo/Bliss"}
+                        demoLink={"https://bliss-gt.web.app"}
                     />
                 </div>
             </div>
