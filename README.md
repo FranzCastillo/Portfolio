@@ -6,7 +6,7 @@ Soy Francisco Castillo (muchos me conocen como Franz), un estudiante de Ingenier
 Este repositorio contiene el código fuente del desarrollo de un portafolio personal, en el cuál está información de mi persona y experiencia personal con diferentes tecnologías y desarrollo de proyectos.
 
 ## ¿Cómo puedo visitar el proyecto?
-El proyecto se encuentra publicado en internet a través de Vercel. Para visitarlo puede utilizar el siguiente enlace https://portfolio-wine-xi-20.vercel.app
+El proyecto se encuentra publicado en internet a través de Vercel. Para visitarlo puede utilizar el siguiente enlace https://portfolio-franzcastillo.vercel.app
 
 ## Tecnologías utilizadas
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png" width="30">[ SASS](https://sass-lang.com/)
