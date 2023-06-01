@@ -15,6 +15,11 @@ const Home = () => {
                 justifyContent: 'center',
                 padding: '15px',
                 fontFamily: 'Roboto, sans-serif',
+                backgroundColor: 'rgba(227, 132, 255, 0.1)',
+                backdropFilter: 'blur(5px)',
+                borderRadius: '10px',
+                marginTop: '10px',
+                marginBottom: '10px',
             }}
         >
             <Typography

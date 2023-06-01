@@ -1,0 +1,31 @@
+@import '../../../../styles/Variables.scss';
+.image-display {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    p{
+      background-color: rgba($background-color, 0.7);
+      border-radius: 15px;
+      padding: 10px;
+      color: $text-color;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+}

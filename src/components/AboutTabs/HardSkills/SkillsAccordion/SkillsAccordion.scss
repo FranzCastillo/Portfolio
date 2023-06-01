@@ -1,0 +1,23 @@
+@import "../../../../styles/Variables";
+
+.accordion {
+  padding: 0;
+
+  .icon{
+    color: $secondary-color;
+  }
+
+  .panel {
+    color: $text-color;
+    background-color: $background-color;
+    border: 0.5px solid rgba(96, 40, 255, 0.1);
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../../../styles/Variables";
+
+.chip{
+  border-radius: 20px;
+  border: 1px solid $primary-color;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: 5px;
+
+  .icon{
+    margin-right: 5px;
+    font-size: 20px;
+    color: $primary-color;
+  }
+
+  p{
+    margin: 0;
+    font-size: 14px;
+    color: #c2acff;
+  }
+}
