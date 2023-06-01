@@ -14,6 +14,14 @@
   font-family: $font-family;
   background-color: $background-color;
 
+  .overlay {
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+  }
+
   img {
     width: 100%;
     height: 200px;
@@ -40,6 +48,8 @@
         text-decoration: none;
         color: $accent-color;
         transition: all 0.1s ease-in-out;
+        display: flex;
+        align-items: center;
 
         &:hover {
           color: $secondary-color;
