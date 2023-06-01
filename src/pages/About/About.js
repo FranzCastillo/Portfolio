@@ -7,7 +7,7 @@ import "./About.scss";
 const About = () => {
     return (
         <Container
-            className={"home"}
+            className={"about"}
             maxWidth="xl"
             sx={{
                 display: 'flex',
