@@ -9,6 +9,7 @@ const Contact = () => {
     return (
         <Container
             className={"reach-me-container"}
+            id={"contact"}
             maxWidth="xl"
             sx={{
                 display: 'flex',

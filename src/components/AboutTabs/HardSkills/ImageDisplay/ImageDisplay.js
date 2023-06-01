@@ -1,4 +1,3 @@
-import react from 'react';
 import "./ImageDisplay.scss";
 
 const ImageDisplay = ({title, imageLink}) => {

@@ -1,0 +1,50 @@
+@import "../../../styles/Variables";
+
+.project-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  color: $text-color;
+  font-family: $font-family;
+  background-color: $background-color;
+
+  img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: auto;
+
+      a {
+        text-decoration: none;
+        color: $accent-color;
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
