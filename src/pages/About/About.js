@@ -2,6 +2,7 @@ import React from 'react';
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import AboutTabs from "../../components/AboutTabs/AboutTabs";
+import "./About.scss";
 
 const About = () => {
     return (
@@ -36,7 +37,7 @@ const About = () => {
                     textAlign: 'center',
                 }}
             >
-                <div>Soy un estudiante de <span id={"career"}>Ingeniería en Ciencias de la Computación y Tecnologías de la Información</span></div>
+                <div>Soy un estudiante de <span id={"about-career"}>Ingeniería en Ciencias de la Computación y Tecnologías de la Información</span></div>
                 cursando actualmente su 5to semestre en la <span id={"university"}>Universidad del Valle de Guatemala</span>.
             </Typography>
             <AboutTabs />

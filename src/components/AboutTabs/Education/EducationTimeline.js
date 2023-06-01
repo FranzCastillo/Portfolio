@@ -7,6 +7,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import "./Education.scss";
 import * as React from "react";
+import Typography from "@mui/material/Typography";
 
 const EducationTimeline = () => {
     return (
@@ -57,6 +58,17 @@ const EducationTimeline = () => {
                     <TimelineContent>Inició a estudiar en el Colegio Suizo Americano</TimelineContent>
                 </TimelineItem>
             </Timeline>
+            <Typography
+                className={"title"}
+                variant="p"
+                component="p"
+                gutterBottom
+                sx={{
+                    textAlign: 'center',
+                }}
+            >
+            {/*    Si tuviera alguna certificación adicional, la colocaría acá*/}
+            </Typography>
         </div>
     );
 }
