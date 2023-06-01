@@ -1,0 +1,15 @@
+.projects-container {
+  .projects {
+    .title {
+      font-weight: 700;
+      letter-spacing: .1rem;
+    }
+
+    .projects-list{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+  }
+}
