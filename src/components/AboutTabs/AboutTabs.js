@@ -6,7 +6,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import EducationTimeline from "./Education/EducationTimeline";
-import SkillsAccordion from "./HardSkills/SkillsAccordion";
+import SkillsAccordion from "./HardSkills/SkillsAccordion/SkillsAccordion";
 
 function TabPanel(props) {
     const {children, value, index, ...other} = props;
@@ -54,7 +54,11 @@ export default function AboutTabs() {
                 <Tabs
                     value={value}
                     onChange={handleChange}
-                    centered aria-label="Tabs About Franz"
+                    aria-label="Tabs About Franz"
+                    // variant="scrollable"
+                    // scrollButtons="auto"
+                    keepMounted={true}
+                    centered={true}
                     textColor={"inherit"}
                     indicatorColor={"secondary"}
                 >
