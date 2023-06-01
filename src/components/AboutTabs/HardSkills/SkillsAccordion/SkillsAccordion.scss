@@ -3,6 +3,10 @@
 .accordion {
   padding: 0;
 
+  .icon{
+    color: $secondary-color;
+  }
+
   .panel {
     color: $text-color;
     background-color: $background-color;

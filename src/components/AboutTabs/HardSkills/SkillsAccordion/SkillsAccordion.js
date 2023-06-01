@@ -23,7 +23,7 @@ export default function ControlledAccordions() {
                 className={"panel"}
             >
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon/>}
+                    expandIcon={<ExpandMoreIcon className={"icon"}/>}
                     aria-controls="panel1bh-content"
                     id="panel1bh-header"
                 >
@@ -76,7 +76,7 @@ export default function ControlledAccordions() {
                 className={"panel"}
             >
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon/>}
+                    expandIcon={<ExpandMoreIcon className={"icon"}/>}
                     aria-controls="panel2bh-content"
                     id="panel2bh-header"
                 >
@@ -148,7 +148,7 @@ export default function ControlledAccordions() {
                 className={"panel"}
             >
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon/>}
+                    expandIcon={<ExpandMoreIcon className={"icon"}/>}
                     aria-controls="panel3bh-content"
                     id="panel3bh-header"
                 >
@@ -188,7 +188,7 @@ export default function ControlledAccordions() {
                 className={"panel"}
             >
                 <AccordionSummary
-                    expandIcon={<ExpandMoreIcon/>}
+                    expandIcon={<ExpandMoreIcon className={"icon"}/>}
                     aria-controls="panel4bh-content"
                     id="panel4bh-header"
                 >
