@@ -116,6 +116,10 @@ export default function ControlledAccordions() {
                             title={"Material UI"}
                             imageLink={"https://img.icons8.com/color/96/000000/material-ui.png"}
                         />
+                        <ImageDisplay
+                            title={"Bootstrap"}
+                            imageLink={"https://img.icons8.com/color/96/000000/bootstrap.png"}
+                        />
                     </div>
                     <div className={"panel-title"}>
                         <Typography>
@@ -125,7 +129,7 @@ export default function ControlledAccordions() {
                     <div className={"image-container"}>
                         <ImageDisplay
                             title={"Supabase"}
-                            imageLink={"https://yt3.googleusercontent.com/NqiGfwN1LVktrPKrSDjWCdWL1B2O8KzPKSmXowT91w8-Z6PUgZgj0qpXIj5AxYPevf3_rB-I=s900-c-k-c0x00ffffff-no-rj"}
+                            imageLink={"https://yt3.googleusercontent.com/Xtf_znS_ECrB4NJVRTNWJ2QcfH4Ta3Hz6Cg99EtDA03-03d5aOhyflWo0rgHgXYb1-6pSEn9=s900-c-k-c0x00ffffff-no-rj"}
                         />
                         <ImageDisplay
                             title={"ExpressJS"}

@@ -7,6 +7,7 @@ import Medium from '../../assets/images/medium.png';
 import Memory from '../../assets/images/memory.png';
 import BB8 from '../../assets/images/bb8.png';
 import Portfolio from '../../assets/images/portfolio.png';
+import Intercambios from '../../assets/images/intercambios.png';
 import ProjectCard from "./ProjectCard/ProjectCard";
 
 import './Projects.scss';
@@ -41,6 +42,13 @@ const Projects = () => {
                     Proyectos
                 </Typography>
                 <div className={"projects-list"}>
+                    <ProjectCard
+                        title={"Intercambios UVG"}
+                        description={"Desarrollo de base de datos y plataforma administrativa para los intercambios de la Universidad del Valle de Guatemala."}
+                        image={Intercambios}
+                        githubLink={"https://github.com/FranzCastillo/UVG-Intercambios"}
+                        demoLink={"https://uvg-intercambios.vercel.app"}
+                    />
                     <ProjectCard
                         title={"Bliss"}
                         description={"Desarrollo de la página de venta en línea y administración para todas aquellas personas involucradas con la empresa, desde los clientes hasta los encargados."}

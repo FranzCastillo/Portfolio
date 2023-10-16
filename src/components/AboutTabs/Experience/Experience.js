@@ -45,6 +45,7 @@ export default function Experience() {
                     <ExperienceList
                         items={[
                             "Profesor auxiliar de Algoritmos y Estructuras de Datos",
+                            "Profesor auxiliar de Programación Orientada a Objetos",
                         ]}
                     />
                 </AccordionDetails>
@@ -76,7 +77,7 @@ export default function Experience() {
                     <ExperienceList
                         items={[
                             "2x Estudiante con Honor el Mérito Académico",
-                            "Promedio global actual: 92",
+                            "Promedio global actual: 94",
                             "Bachiller en Ciencias y Letras con Orientación en Computación",
                         ]}
                     />
@@ -109,6 +110,7 @@ export default function Experience() {
                     <ExperienceList
                         items={[
                             "Certificado de Liderazgo Franklin Covey",
+                            "Voluntario en el evento Volcano Summit 2023"
                         ]}
                     />
                 </AccordionDetails>

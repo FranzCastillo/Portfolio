@@ -39,8 +39,7 @@ const About = () => {
             >
                 <div>Soy un estudiante de <span id={"about-career"}>Ingeniería en Ciencias de la Computación y Tecnologías de la Información</span>
                 </div>
-                cursando actualmente su 5to semestre en la <span
-                id={"university"}>Universidad del Valle de Guatemala</span>.
+                cursando actualmente su 6to semestre en la <span id={"university"}>Universidad del Valle de Guatemala</span>.
             </Typography>
             <AboutTabs/>
         </Container>
