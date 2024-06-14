@@ -1,8 +1,17 @@
 {
-  "Index": {
-    "title": "¡Hola mundo!"
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "description": "¿Quién soy?",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contáctame"
   },
-    "NotFound": {
-        "title": "Página no encontrada"
-    }
+  "Hero": {
+    "title": "¡Hola! Soy Francisco Castillo",
+    "description": "Muchos me conocen como Franz",
+    "cv-button": "Descargar CV",
+    "more-button": "Conóceme más..."
+  }
 }

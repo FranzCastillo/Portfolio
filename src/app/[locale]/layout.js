@@ -1,6 +1,7 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import "../globals.css";
+import NavBar from "@/components/navBar";
 
 
 export default async function LocaleLayout({
@@ -8,13 +9,13 @@ export default async function LocaleLayout({
                                                params: {locale}
                                            }
 ) {
-    // Providing all messages to the client
     const messages = await getMessages();
 
     return (
         <html lang={locale}>
         <body>
         <NextIntlClientProvider messages={messages}>
+            <NavBar/>
             {children}
         </NextIntlClientProvider>
         </body>

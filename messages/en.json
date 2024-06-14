@@ -1,8 +1,17 @@
 {
-  "Index": {
-    "title": "Hello world!"
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "description": "Who am I?",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact Me"
   },
-  "NotFound": {
-    "title": "Page not found"
+  "Hero": {
+    "title": "Hello! I'm Francisco Castillo",
+    "description": "Many know me as Franz",
+    "cv-button": "Download CV",
+    "more-button": "Know more..."
   }
 }
