@@ -9,7 +9,7 @@ export default function HeroSection() {
 
     return (
         <section>
-            <div className={"grid grid-cols-1 sm:grid-cols-12"}>
+            <div className={"grid mt-2 grid-cols-1 sm:grid-cols-12"}>
                 <div className={"col-span-7 place-self-center text-center sm:text-left"}>
                     <h1 className={"text-white mb-4 text-4xl lg:text-6xl font-extrabold"}>
                         <span className={"text-[#89e219]"}>{t("title")}</span><br/>
@@ -38,7 +38,7 @@ export default function HeroSection() {
                         })}
                     </p>
                     <div>
-                        <button className={"px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#89e219] hover:bg-[#58cc02]"}>
+                        <button className={"text-black px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#89e219] hover:bg-[#58cc02]"}>
                             {t("more-button")}
                         </button>
                         <button
