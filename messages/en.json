@@ -9,9 +9,15 @@
     "contact": "Contact Me"
   },
   "Hero": {
-    "title": "Hello! I'm Francisco Castillo",
-    "description": "Many know me as Franz",
+    "title": "Hey there! I'm",
+    "description": "Many know me as 'Franz'. I'm a <age></age> year old Computer Science student who is always eager to learn new things and get involved in different challenges.",
+    "roles": {
+      "student": "a CS Student",
+      "software-engineer": "a Software Eng.",
+      "ai-enthusiast": "an AI enthusiast",
+      "tech-lover": "a Tech lover"
+    },
     "cv-button": "Download CV",
-    "more-button": "Know more..."
+    "more-button": "Know more"
   }
 }

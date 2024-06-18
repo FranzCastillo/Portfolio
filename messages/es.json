@@ -9,9 +9,15 @@
     "contact": "Contáctame"
   },
   "Hero": {
-    "title": "¡Hola! Soy Francisco Castillo",
-    "description": "Muchos me conocen como Franz",
+    "title": "¡Hola! Soy",
+    "description": "Muchos me conocen como 'Franz'. Tengo <age></age> años y soy un estudiante de Ciencias de la Computación al que siempre le emociona aprender nuevas cosas e involucrarse en nuevos desafíos.",
+    "roles": {
+      "student": "un Estudiante de CCTI",
+      "software-engineer": "un Ingeniero de Software",
+      "ai-enthusiast": "un entusiasta de la IA",
+      "tech-lover": "un amante de la Tecnología"
+    },
     "cv-button": "Descargar CV",
-    "more-button": "Conóceme más..."
+    "more-button": "Conóce más"
   }
 }
