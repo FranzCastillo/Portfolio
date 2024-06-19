@@ -5,31 +5,8 @@ import {useTranslations} from "next-intl";
 export default function Home() {
     const t = useTranslations('Navigation');
 
-    const links = [
-        {
-            path: "#",
-            title: t("home")
-        },
-        {
-            path: "#about",
-            title: t("about")
-        },
-        {
-            path: "#skills",
-            title: t("experience")
-        },
-        {
-            path: "#projects",
-            title: t("projects")
-        },
-        {
-            path: "#contact",
-            title: t("contact")
-        },
-    ]
-
     return (
-        <div className="navbar bg-[#131f24] border-b-2 border-[#1f333b]">
+        <div className="navbar bg-[#131f24] border-b-2 border-[#1f333b] sticky top-0 z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,7 +23,7 @@ export default function Home() {
                             <a>{t("about")}</a>
                             <ul className="p-2">
                                 <li><a href={"#who-am-i"}>{t("description")}</a></li>
-                                <li><a href={"experience"}>{t("experience")}</a></li>
+                                <li><a href={"#experience"}>{t("experience")}</a></li>
                             </ul>
                         </li>
                         <li><a href={"skills"}>{t("skills")}</a></li>
@@ -63,16 +40,16 @@ export default function Home() {
                             <summary>{t("about")}</summary>
                             <ul className="p-2">
                                 <li><a href={"#who-am-i"}>{t("description")}</a></li>
-                                <li><a href={"experience"}>{t("experience")}</a></li>
+                                <li><a href={"#experience"}>{t("experience")}</a></li>
                             </ul>
                         </details>
                     </li>
-                    <li><a href={"skills"}>{t("skills")}</a></li>
-                    <li><a href={"projects"}>{t("projects")}</a></li>
+                    <li><a href={"#skills"}>{t("skills")}</a></li>
+                    <li><a href={"#projects"}>{t("projects")}</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-[#ce82ff] text-white font-bold hover:bg-[#a568cc]">{t("contact")}</a>
+                <a className="btn bg-[#ce82ff] text-black font-semibold hover:bg-[#a568cc]">{t("contact")}</a>
             </div>
         </div>
     );

@@ -19,5 +19,25 @@
     },
     "cv-button": "Descargar CV",
     "more-button": "Conóce más"
+  },
+  "About": {
+    "title": "Sobre Mí",
+    "who-am-i": "¿Quién soy?",
+    "description": "Soy un estudiante universitario con una destacada trayectoria académica, galardonado múltiples veces por mi desempeño sobresaliente, con un promedio superior a 95 puntos en todos los semestres cursados. Me motiva el aprendizaje continuo y me considero una persona proactiva, creativa y orientada a resultados. Mi compromiso con la excelencia y la eficiencia me ha permitido desarrollar habilidades sociales y una pasión por los proyectos que emprendo, abordándolos con pensamiento crítico y sólidas capacidades de resolución de problemas. He participado en programas de liderazgo de Franklin Covey y colaborado como voluntario en iniciativas de acción social, Fintech y emprendimiento.",
+    "skills": "Habilidades",
+    "education": {
+      "title": "Educación",
+      "suizo": {
+        "title": "Colegio Suizo Americano",
+        "date": ""
+      }
+    },
+    "certifications": {
+      "title": "Certificaciones",
+      "franklin-covey": {
+        "title": "Franklin Covey",
+        "date": ""
+      }
+    }
   }
 }

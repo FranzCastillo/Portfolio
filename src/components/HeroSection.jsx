@@ -38,11 +38,11 @@ export default function HeroSection() {
                         })}
                     </p>
                     <div>
-                        <button className={"text-black px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#89e219] hover:bg-[#58cc02]"}>
+                        <button className={"text-black font-semibold px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-[#89e219] hover:bg-[#58cc02]"}>
                             {t("more-button")}
                         </button>
                         <button
-                            className={"px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-[#1f333b] text-[#A1AFAC] border border-[#A1AFAC] mt-3"}>
+                            className={"px-6 py-3 w-full font-semibold sm:w-fit rounded-full bg-transparent hover:bg-[#1f333b] text-[#A1AFAC] border border-[#A1AFAC] mt-3"}>
                             {t("cv-button")}
                         </button>
                     </div>

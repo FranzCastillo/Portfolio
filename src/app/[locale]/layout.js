@@ -1,7 +1,7 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import "../globals.css";
-import NavBar from "@/components/navBar";
+import NavBar from "@/components/NavBar";
 
 
 export default async function LocaleLayout({
