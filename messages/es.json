@@ -24,12 +24,23 @@
     "title": "Sobre Mí",
     "who-am-i": "¿Quién soy?",
     "description": "Soy un estudiante universitario con una destacada trayectoria académica, galardonado múltiples veces por mi desempeño sobresaliente, con un promedio superior a 95 puntos en todos los semestres cursados. Me motiva el aprendizaje continuo y me considero una persona proactiva, creativa y orientada a resultados. Mi compromiso con la excelencia y la eficiencia me ha permitido desarrollar habilidades sociales y una pasión por los proyectos que emprendo, abordándolos con pensamiento crítico y sólidas capacidades de resolución de problemas. He participado en programas de liderazgo de Franklin Covey y colaborado como voluntario en iniciativas de acción social, Fintech y emprendimiento.",
-    "skills": "Habilidades",
+    "skills": {
+      "title": "Habilidades",
+      "languages": "Lenguajes de Programación"
+    },
     "education": {
       "title": "Educación",
       "suizo": {
         "title": "Colegio Suizo Americano",
-        "date": ""
+        "description": "Estudié toda mi vida en este colegio. Graduado de Bachiller en Ciencias y Letras orientado en Computación. Promedio de 95 puntos."
+      },
+      "uvg": {
+        "title": "Universidad del Valle de Guatemala",
+        "description": "Actualmente estudiando <bold>Ingeniería en Ciencias de la Computación y Tecnologías de la Información.</bold> Obteniendo múltples diplomas por un desempeño académico sobresaliente."
+      },
+      "usask": {
+        "title": "Universidad de Saskatchewan",
+        "description": "Tuve la oportunidad de realizar un intercambio a Saskatoon, Canadá, a través de la beca <bold>Emerging Leaders in the Americas Program (ELAP)</bold>."
       }
     },
     "certifications": {

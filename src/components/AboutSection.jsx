@@ -3,43 +3,7 @@ import React, { useState, useTransition } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 import {useTranslations} from "next-intl";
-
-const TAB_DATA = [
-    {
-        title: "Skills",
-        id: "skills",
-        content: (
-            <ul className="list-disc pl-2">
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>PostgreSQL</li>
-                <li>Sequelize</li>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
-            </ul>
-        ),
-    },
-    {
-        title: "Education",
-        id: "education",
-        content: (
-            <ul className="list-disc pl-2">
-                <li>Fullstack Academy of Code</li>
-                <li>University of California, Santa Cruz</li>
-            </ul>
-        ),
-    },
-    {
-        title: "Certifications",
-        id: "certifications",
-        content: (
-            <ul className="list-disc pl-2">
-                <li>AWS Cloud Practitioner</li>
-                <li>Google Professional Cloud Developer</li>
-            </ul>
-        ),
-    },
-];
+import SkillDisplay from "@/components/SkillDisplay";
 
 const AboutSection = () => {
     const t = useTranslations("About");
@@ -53,21 +17,114 @@ const AboutSection = () => {
         });
     };
 
+    const TAB_DATA = [
+        {
+            title: "Skills",
+            id: "skills",
+            content: (
+                <div className={"flex flex-col gap-2"}>
+                    <div className={"flex flex-col items-center bg-[#1f333b] rounded-box p-2"}>
+                        <h3 className="text-lg font-bold text-white mb-2 text-center">{t("skills.languages")}</h3>
+                        <div className="flex flex-row flex-wrap gap-4 w-full justify-center">
+                            <SkillDisplay name={"Python"} imgPath={"/images/Python.jpg"}/>
+                            <SkillDisplay name={"Java"} imgPath={"/images/Java.png"}/>
+                            <SkillDisplay name={"JavaScript"} imgPath={"/images/JavaScript.png"}/>
+                            <SkillDisplay name={"C#"} imgPath={"/images/CSharp.png"}/>
+                        </div>
+                    </div>
+                </div>
+            )
+        },
+        {
+            title: "Education",
+            id: "education",
+            content: (
+                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                    <li>
+                        <div className="timeline-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#89e219"
+                                 className="h-5 w-5">
+                                <path fillRule="evenodd"
+                                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                      clipRule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div className="timeline-start md:text-end mb-2">
+                            <time className="font-mono italic text-[#89e219]">2003-2020</time>
+                            <div className="text-lg font-black text-white">{t("education.suizo.title")}</div>
+                            {t("education.suizo.description")}
+                        </div>
+                        <hr/>
+                    </li>
+                    <li>
+                        <hr/>
+                        <div className="timeline-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#ce82ff"
+                                 className="h-5 w-5">
+                                <path fillRule="evenodd"
+                                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                      clipRule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div className="timeline-end mb-2">
+                            <time className="font-mono italic text-[#ce82ff]">2021-2025</time>
+                            <div className="text-lg font-black text-white">{t("education.uvg.title")}</div>
+                            {t.rich("education.uvg.description", {
+                                bold: (chunks) => (<span className="font-bold">{chunks}</span>),
+                            })}
+                        </div>
+                        <hr/>
+                    </li>
+                    <li>
+                        <hr/>
+                        <div className="timeline-middle">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3fd9b5"
+                                 className="h-5 w-5">
+                                <path fillRule="evenodd"
+                                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                      clipRule="evenodd"/>
+                            </svg>
+                        </div>
+                        <div className="timeline-start md:text-end mb-2">
+                            <time className="font-mono italic text-[#3fd9b5]">2024</time>
+                            <div className="text-lg font-black text-white">{t("education.usask.title")}</div>
+                            {t.rich("education.usask.description", {
+                                bold: (chunks) => (<span className="font-bold">{chunks}</span>),
+                            })}
+                        </div>
+                        <hr/>
+                    </li>
+                </ul>
+            ),
+        },
+        {
+            title: "Certifications",
+            id: "certifications",
+            content: (
+                <ul className="list-disc pl-2">
+                    <li>AWS Cloud Practitioner</li>
+                    <li>Google Professional Cloud Developer</li>
+                </ul>
+            ),
+        },
+    ];
+
+
     return (
-        <section className="text-white">
+        <section className="text-[#A1AFAC]">
             <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
                 <Image src="/images/coding.png" width={500} height={500} className={"rounded-box"}/>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">{t("title")}</h2>
-                    <p className="text-white texxt-base md:text-lg">
+                    <p className="texxt-base md:text-lg">
                         {t("description")}
                     </p>
-                    <div className="flex flex-row justify-between mt-8">
+                    <div className="flex flex-row flex-wrap justify-between mt-8">
                         <TabButton
                             selectTab={() => handleTabChange("skills")}
                             active={tab === "skills"}
                         >
-                            {t("skills")}
+                            {t("skills.title")}
                         </TabButton>
                         <TabButton
                             selectTab={() => handleTabChange("education")}
@@ -82,7 +139,7 @@ const AboutSection = () => {
                             {t("certifications.title")}
                         </TabButton>
                     </div>
-                    <div className="mt-8">
+                    <div className="mt-4">
                         {TAB_DATA.find((t) => t.id === tab).content}
                     </div>
                 </div>
