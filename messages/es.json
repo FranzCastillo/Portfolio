@@ -26,7 +26,10 @@
     "description": "Soy un estudiante universitario con una destacada trayectoria académica, galardonado múltiples veces por mi desempeño sobresaliente, con un promedio superior a 95 puntos en todos los semestres cursados. Me motiva el aprendizaje continuo y me considero una persona proactiva, creativa y orientada a resultados. Mi compromiso con la excelencia y la eficiencia me ha permitido desarrollar habilidades sociales y una pasión por los proyectos que emprendo, abordándolos con pensamiento crítico y sólidas capacidades de resolución de problemas. He participado en programas de liderazgo de Franklin Covey y colaborado como voluntario en iniciativas de acción social, Fintech y emprendimiento.",
     "skills": {
       "title": "Habilidades",
-      "languages": "Lenguajes de Programación"
+      "languages": "Lenguajes de Programación",
+      "web": "Desarrollo Web",
+      "data": "Análisis de Datos",
+      "mlAI": "Machine Learning e Inteligencia Artificial"
     },
     "education": {
       "title": "Educación",
@@ -45,9 +48,15 @@
     },
     "certifications": {
       "title": "Certificaciones",
-      "franklin-covey": {
-        "title": "Franklin Covey",
-        "date": ""
+      "guatemaltek": {
+        "title": "Integración de Sistemas y Arquitectura basada en Eventos",
+        "issuer": "Guatemaltek",
+        "date": "Nov. 2023"
+      },
+      "aws-101": {
+        "title": "Tecnologías en la NUbe y Creación de Servidores con AWS",
+        "issuer": "Universidad del Valle de Guatemala",
+        "date": "Abr. 2023"
       }
     }
   }

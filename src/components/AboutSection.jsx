@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useTransition } from "react";
+import React, {useState, useTransition} from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 import {useTranslations} from "next-intl";
@@ -19,24 +19,63 @@ const AboutSection = () => {
 
     const TAB_DATA = [
         {
-            title: "Skills",
             id: "skills",
             content: (
                 <div className={"flex flex-col gap-2"}>
-                    <div className={"flex flex-col items-center bg-[#1f333b] rounded-box p-2"}>
-                        <h3 className="text-lg font-bold text-white mb-2 text-center">{t("skills.languages")}</h3>
-                        <div className="flex flex-row flex-wrap gap-4 w-full justify-center">
+                    <div className="collapse collapse-arrow bg-[#1f333b]">
+                        <input type="radio" name="my-accordion-2"/>
+                        <div className="collapse-title font-base text-white">
+                            {t("skills.languages")}
+                        </div>
+                        <div className="collapse-content flex flex-row flex-wrap gap-4 w-full justify-center">
                             <SkillDisplay name={"Python"} imgPath={"/images/Python.jpg"}/>
                             <SkillDisplay name={"Java"} imgPath={"/images/Java.png"}/>
                             <SkillDisplay name={"JavaScript"} imgPath={"/images/JavaScript.png"}/>
                             <SkillDisplay name={"C#"} imgPath={"/images/CSharp.png"}/>
                         </div>
                     </div>
+                    <div className="collapse collapse-arrow bg-[#1f333b]">
+                        <input type="radio" name="my-accordion-2"/>
+                        <div className="collapse-title font-base text-white">
+                            {t("skills.web")}
+                        </div>
+                        <div className="collapse-content flex flex-row flex-wrap gap-4 w-full justify-center">
+                            <SkillDisplay name={"NodeJS"} imgPath={"/images/Node.jpg"}/>
+                            <SkillDisplay name={"React"} imgPath={"/images/React.png"}/>
+                            <SkillDisplay name={"NextJS"} imgPath={"/images/Next.png"}/>
+                            <SkillDisplay name={"Sass"} imgPath={"/images/Sass.png"}/>
+                            <SkillDisplay name={"Bootstrap"} imgPath={"/images/Bootstrap.png"}/>
+                            <SkillDisplay name={"Tailwind"} imgPath={"/images/Tailwind.png"}/>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-[#1f333b]">
+                        <input type="radio" name="my-accordion-2"/>
+                        <div className="collapse-title font-base text-white">
+                            {t("skills.data")}
+                        </div>
+                        <div className="collapse-content flex flex-row flex-wrap gap-4 w-full justify-center">
+                            <SkillDisplay name={"Python"} imgPath={"/images/Python.jpg"}/>
+                            <SkillDisplay name={"PowerBI"} imgPath={"/images/PowerBI.png"}/>
+                            <SkillDisplay name={"Tableau"} imgPath={"/images/Tableau.png"}/>
+                            <SkillDisplay name={"Excel"} imgPath={"/images/Excel.png"}/>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-[#1f333b]">
+                        <input type="radio" name="my-accordion-2"/>
+                        <div className="collapse-title font-base text-white">
+                            {t("skills.mlAI")}
+                        </div>
+                        <div className="collapse-content flex flex-row flex-wrap gap-4 w-full justify-center">
+                            <SkillDisplay name={"SciKit Learn"} imgPath={"/images/Scikit.png"}/>
+                            <SkillDisplay name={"PyTorch"} imgPath={"/images/Pytorch.png"}/>
+                            <SkillDisplay name={"TensorFlow"} imgPath={"/images/Tensorflow.png"}/>
+                            <SkillDisplay name={"R"} imgPath={"/images/R.png"}/>
+                        </div>
+                    </div>
                 </div>
-            )
+            ),
         },
         {
-            title: "Education",
             id: "education",
             content: (
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
@@ -98,7 +137,6 @@ const AboutSection = () => {
             ),
         },
         {
-            title: "Certifications",
             id: "certifications",
             content: (
                 <ul className="list-disc pl-2">
