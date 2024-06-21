@@ -19,5 +19,45 @@
     },
     "cv-button": "Download CV",
     "more-button": "Know more"
+  },
+  "About": {
+    "title": "About Me",
+    "who-am-i": "¿Quién soy?",
+    "description": "I am a university student with a distinguished academic career, awarded multiple times for my outstanding performance, maintaining an average above 95 points in all semesters completed. I am motivated by continuous learning and consider myself proactive, creative, and results-oriented. My commitment to excellence and efficiency has allowed me to develop social skills and a passion for the projects I undertake, approaching them with critical thinking and strong problem-solving abilities. I have participated in Franklin Covey leadership programs and volunteered in social action, fintech, and entrepreneurial initiatives.",
+    "skills": {
+      "title": "Skills",
+      "languages": "Programming Languages",
+      "web": "Web Development",
+      "data": "Data Analysis",
+      "mlAI": "Machine Learning & AI"
+    },
+    "education": {
+      "title": "Education",
+      "suizo": {
+        "title": "Colegio Suizo Americano",
+        "description": "I studied all my life at this school. I graduated with a High School diploma in Science and Letters with a focus on Computing. I maintained an average of 95 points."
+      },
+      "uvg": {
+        "title": "University of the Valley of Guatemala",
+        "description": "Currently studying <bold>Computer Science and Information Technology Engineering</bold>, earning multiple diplomas for outstanding academic performance."
+      },
+      "usask": {
+        "title": "University of Saskatchewan",
+        "description": "I had the opportunity to participate in an exchange to Saskatoon, Canada, through the <bold>Emerging Leaders in the Americas Program (ELAP)</bold> scholarship."
+      }
+    },
+    "certifications": {
+      "title": "Certifications",
+      "guatemaltek": {
+        "title": "Systems Integration and Event Driven Architecture",
+        "issuer": "Guatemaltek",
+        "date": "Nov. 2023"
+      },
+      "aws-101": {
+        "title": "Cloud Technologies and Server Creation with AWS",
+        "issuer": "University of the Valley of Guatemala",
+        "date": "Apr. 2023"
+      }
+    }
   }
 }
