@@ -10,7 +10,7 @@ const AboutSection = () => {
     const t = useTranslations("About");
 
     const [tab, setTab] = useState("skills");
-    const [isPending, startTransition] = useTransition();
+    const [_, startTransition] = useTransition();
 
     const handleTabChange = (id) => {
         startTransition(() => {

@@ -17,7 +17,7 @@
       "ai-enthusiast": "an AI enthusiast",
       "tech-lover": "a Tech lover"
     },
-    "cv-button": "Download CV",
+    "cv-button": "Download resume",
     "more-button": "Know more"
   },
   "About": {
@@ -58,6 +58,24 @@
         "issuer": "University of the Valley of Guatemala",
         "date": "Apr. 2023"
       }
+    }
+  },
+  "ProjectCard": {
+    "code": "Code",
+    "demo": "Demo"
+  },
+  "Projects": {
+    "title": "Projects",
+    "tags": {
+      "web": "Web Development",
+      "data": "Data Analysis",
+      "mlAI": "Machine Learning & AI",
+      "db": "Database Management",
+      "api": "API Integration"
+    },
+    "exchanges": {
+      "title": "Student Exchanges UVG",
+      "description": "A Web Platform for the University of the Valley of Guatemala that allows the Internationalization Department to manage the student exchange process. It includes the management of students, universities, and the application process."
     }
   }
 }
