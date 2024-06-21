@@ -4,6 +4,7 @@ import Image from "next/image";
 import TabButton from "./TabButton";
 import {useTranslations} from "next-intl";
 import SkillDisplay from "@/components/SkillDisplay";
+import CertificationDisplay from "@/components/CertificationDisplay";
 
 const AboutSection = () => {
     const t = useTranslations("About");
@@ -139,10 +140,18 @@ const AboutSection = () => {
         {
             id: "certifications",
             content: (
-                <ul className="list-disc pl-2">
-                    <li>AWS Cloud Practitioner</li>
-                    <li>Google Professional Cloud Developer</li>
-                </ul>
+                <div className={"flex flex-row flex-wrap w-full justify-center gap-2"}>
+                    <CertificationDisplay
+                        title={t("certifications.guatemaltek.title")}
+                        issuer={t("certifications.guatemaltek.issuer")}
+                        date={t("certifications.guatemaltek.date")}
+                    />
+                    <CertificationDisplay
+                        title={t("certifications.aws-101.title")}
+                        issuer={t("certifications.aws-101.issuer")}
+                        date={t("certifications.aws-101.date")}
+                    />
+                </div>
             ),
         },
     ];
@@ -151,11 +160,11 @@ const AboutSection = () => {
     return (
         <section className="text-[#A1AFAC]">
             <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-                <Image src="/images/coding.png" width={500} height={500} className={"rounded-box"}/>
+            <Image src="/images/coding.png" width={500} height={500} className={"rounded-box"}/>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">{t("title")}</h2>
                     <p className="texxt-base md:text-lg">
-                        {t("description")}
+                    {t("description")}
                     </p>
                     <div className="flex flex-row flex-wrap justify-between mt-8">
                         <TabButton
