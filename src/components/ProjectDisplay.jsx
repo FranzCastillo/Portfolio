@@ -9,7 +9,7 @@ const ProjectDisplay = ({title, description, tags, repo, image, center=true}) =>
             </div>
             <div className={"p-4"}>
                 <h3 className="text-2xl font-bold text-white">{title}</h3>
-                <p className="text-[#A1AFAC] mb-2">{description}</p>
+                <p className="text-[#A1AFAC] mb-2 line-clamp-3">{description}</p>
                 <div className="flex flex-row flex-wrap gap-2">
                     {tags && tags.map((tag, index) => (
                         <span key={index} className="badge badge-outline">{tag}</span>

@@ -59,5 +59,48 @@
         "date": "Abr. 2023"
       }
     }
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "tags": {
+      "web": "Desarrollo Web",
+      "data": "Análisis de Datos",
+      "mlAI": "Machine Learning e IA",
+      "db": "Bases de Datos",
+      "sockets": "Websockets",
+      "os": "Sistemas Operativos"
+    },
+    "wordle": {
+      "title": "Resolvedor de Wordle",
+      "description": "Un solucionador de Wordle utilizando IA. Capaz de resolver SIEMPRE Wordle en 6 intentos o menos."
+    },
+    "connect4": {
+      "title": "Connecta 4 IA",
+      "description": "Una IA para Conecta 4 utilizando el algoritmo Minimax. Es capaz de jugar contra un jugador humano u otra IA."
+    },
+    "chat": {
+      "title": "Chat en Vivo",
+      "description": "Un chat en vivo que permite a los usuarios comunicarse en tiempo real y gestionar el estado."
+    },
+    "exchanges": {
+      "title": "Intercambios UVG",
+      "description": "Herramienta para que el Departamento de Internacionalización gestione el proceso de intercambios estudiantiles."
+    },
+    "phishing": {
+      "title": "Detección de Phishing",
+      "description": "Un modelo de aprendizaje automático que detecta sitios web de phishing basado en un URL provisto"
+    },
+    "bliss": {
+      "title": "Bliss",
+      "description": "Un sitio web para un catálogo físico de productos que permite a los usuarios ver y comprar productos."
+    },
+    "medium": {
+      "title": "Clon de Medium",
+      "description": "Un clon de la página de inicio de Medium."
+    },
+    "twitter": {
+      "title": "Clon de Twitter",
+      "description": "Un clon de la página de inicio de Twitter."
+    }
   }
 }

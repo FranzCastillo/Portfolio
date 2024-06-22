@@ -20,7 +20,7 @@ const ProjectsSection = () => {
                     <ProjectDisplay
                         title={t("exchanges.title")}
                         description={t("exchanges.description")}
-                        tags={[t("tags.web"), t("tags.db"), t("tags.api")]}
+                        tags={[t("tags.web"), t("tags.db"),]}
                         repo={"https://github.com/FranzCastillo/UVG-Intercambios"}
                         image={"/images/Exchanges.png"}
                         center={false}
