@@ -60,10 +60,6 @@
       }
     }
   },
-  "ProjectCard": {
-    "code": "Code",
-    "demo": "Demo"
-  },
   "Projects": {
     "title": "Projects",
     "tags": {

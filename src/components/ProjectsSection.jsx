@@ -7,9 +7,9 @@ const ProjectsSection = () => {
 
     return (
         <section>
-            <div className={"flex flex-col flex-wrap justify-center items-center py-10"}>
+            <div className={"flex flex-col justify-center items-center py-10"}>
                 <h2 className="text-4xl font-bold text-white mb-4">{t("title")}</h2>
-                <div>
+                <div className={"flex flex-wrap flex-row gap-4 justify-center"}>
                     <ProjectDisplay
                         title={t("exchanges.title")}
                         description={t("exchanges.description")}

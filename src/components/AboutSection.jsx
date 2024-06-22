@@ -163,7 +163,7 @@ const AboutSection = () => {
                 <Image src="/images/coding.png" width={500} height={500} className={"rounded-box md:sticky md:top-0"}/>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">{t("title")}</h2>
-                    <p className="texxt-base md:text-lg">
+                    <p className="text-base md:text-lg">
                         {t("description")}
                     </p>
                     <div className="flex flex-row flex-wrap justify-between mt-8">
