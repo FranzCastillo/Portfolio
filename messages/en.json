@@ -6,7 +6,12 @@
     "experience": "Experience",
     "skills": "Skills",
     "projects": "Projects",
-    "contact": "Contact Me"
+    "contact": "Contact Me",
+    "language": {
+      "title": "Language",
+      "english": "\uD83C\uDDFA\uD83C\uDDF8 English",
+      "spanish": "\uD83C\uDDEA\uD83C\uDDF8 Spanish"
+    }
   },
   "Hero": {
     "title": "Hey there! I'm",

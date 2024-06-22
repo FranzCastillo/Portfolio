@@ -17,7 +17,7 @@ export default function Home() {
                         </svg>
                     </div>
                     <ul tabIndex={0}
-                        className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#1f333b] rounded-box w-52 text-white">
+                        className="menu w-fit menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#1f333b] rounded-box text-white">
                         <li><a href={"#home"}>{t("home")}</a></li>
                         <li>
                             <a>{t("about")}</a>
@@ -28,6 +28,15 @@ export default function Home() {
                         </li>
                         <li><a href={"skills"}>{t("skills")}</a></li>
                         <li><a href={"projects"}>{t("projects")}</a></li>
+                        <li className={"border border-1 rounded-box border-[#A1AFAC] w-fit"}>
+                            <details>
+                                <summary>{t("language.title")}</summary>
+                                <ul className="p-2">
+                                    <li><a href={"#who-am-i"}>{t("language.english")}</a></li>
+                                    <li><a href={"#experience"}>{t("language.spanish")}</a></li>
+                                </ul>
+                            </details>
+                        </li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost text-xl text-white">{"</> Franz"}</a>
@@ -46,6 +55,15 @@ export default function Home() {
                     </li>
                     <li><a href={"#skills"}>{t("skills")}</a></li>
                     <li><a href={"#projects"}>{t("projects")}</a></li>
+                    <li className={"border border-1 rounded-box border-[#A1AFAC]"}>
+                        <details>
+                            <summary>{t("language.title")}</summary>
+                            <ul className="p-2">
+                                <li><a href={"#who-am-i"}>{t("language.english")}</a></li>
+                                <li><a href={"#experience"}>{t("experience")}</a></li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </div>
             <div className="navbar-end">
