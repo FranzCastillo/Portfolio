@@ -15,7 +15,7 @@ const ProjectsSection = () => {
                         description={t("exchanges.description")}
                         tags={[t("tags.web"), t("tags.db"), t("tags.api")]}
                         repo={"https://github.com/FranzCastillo/UVG-Intercambios"}
-                        image={"/images/projects/Exchanges.png"}
+                        image={"/images/Exchanges.png"}
                     />
                 </div>
             </div>
