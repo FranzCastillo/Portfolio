@@ -67,11 +67,41 @@
       "data": "Data Analysis",
       "mlAI": "Machine Learning & AI",
       "db": "Database Management",
-      "api": "API Integration"
+      "api": "API Integration",
+      "sockets": "Websockets",
+      "os": "Operating Systems"
+    },
+    "wordle": {
+      "title": "Wordle Solver",
+      "description": "A Wordle Solver using AI. Created with CSP and Minimax algorithms is able to ALWAYS solve the wordle in 6 tries or less."
+    },
+    "connect4": {
+        "title": "Connect 4 AI",
+        "description": "A Connect 4 AI using Minimax algorithm. It is able to play against a human player or another AI."
+    },
+    "chat": {
+      "title": "Live Chat",
+      "description": "A Live Chat that allows users to communicate in real-time and handle status. Made through processes, websockets and developed in C."
     },
     "exchanges": {
       "title": "Student Exchanges UVG",
       "description": "A Web Platform for the University of the Valley of Guatemala that allows the Internationalization Department to manage the student exchange process. It includes the management of students, universities, and the application process."
+    },
+    "phishing": {
+      "title": "Phishing Detection",
+      "description": "A Machine Learning model that detects phishing websites. It uses a dataset with features extracted from the URL and the website content to predict if a website is a phishing site. We used Linear Regression, Logistic Regression, and KNN."
+    },
+    "bliss": {
+        "title": "Bliss",
+        "description": "A Website for a Catalog of Products that allows users to view and purchase products. It includes a shopping cart, user authentication, and a product catalog."
+    },
+    "medium": {
+      "title": "Medium Clone",
+      "description": "A clone of Medium's landing page."
+    },
+    "twitter": {
+      "title": "Twitter Clone",
+      "description": "A clone of Twitter's basic functionality."
     }
   }
 }

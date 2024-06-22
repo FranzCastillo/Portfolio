@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from "next/image";
 
-const ProjectDisplay = ({title, description, tags, repo, image}) => {
+const ProjectDisplay = ({title, description, tags, repo, image, center=true}) => {
     return (
         <div className="bg-[#1f333b] shadow-xl flex flex-col rounded-box w-full max-w-sm">
             <div className="relative w-full h-56">
-                <Image src={image} layout="fill" objectFit="cover" objectPosition="top left" alt={title} className={"rounded-t-box"}/>
+                <Image src={image} layout="fill" objectFit="cover" objectPosition={center ? "" : "top left"} alt={title} className={"rounded-t-box"}/>
             </div>
             <div className={"p-4"}>
                 <h3 className="text-2xl font-bold text-white">{title}</h3>
