@@ -8,7 +8,7 @@ export default function HeroSection() {
     const t = useTranslations('Hero');
 
     return (
-        <section>
+        <section id={"home"}>
             <div className={"grid mt-2 grid-cols-1 sm:grid-cols-12"}>
                 <div className={"col-span-7 place-self-center text-center sm:text-left"}>
                     <h1 className={"text-white mb-4 text-4xl lg:text-6xl font-extrabold"}>

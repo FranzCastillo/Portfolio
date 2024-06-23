@@ -158,7 +158,7 @@ const AboutSection = () => {
 
 
     return (
-        <section className="text-[#A1AFAC]">
+        <section className="text-[#A1AFAC]" id={"who-am-i"}>
             <div className="gap-8 py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
                 <Image src="/images/coding.png" width={500} height={500} className={"rounded-box md:sticky md:top-0"}/>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">

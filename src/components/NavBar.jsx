@@ -26,14 +26,13 @@ export default function Home() {
                                 <li><a href={"#experience"}>{t("experience")}</a></li>
                             </ul>
                         </li>
-                        <li><a href={"skills"}>{t("skills")}</a></li>
-                        <li><a href={"projects"}>{t("projects")}</a></li>
+                        <li><a href={"#projects"}>{t("projects")}</a></li>
                         <li className={"border border-1 rounded-box border-[#A1AFAC] w-fit"}>
                             <details>
                                 <summary>{t("language.title")}</summary>
                                 <ul className="p-2">
-                                    <li><a href={"#who-am-i"}>{t("language.english")}</a></li>
-                                    <li><a href={"#experience"}>{t("language.spanish")}</a></li>
+                                    <li><a href={"/en"}>{t("language.english")}</a></li>
+                                    <li><a href={"/es"}>{t("language.spanish")}</a></li>
                                 </ul>
                             </details>
                         </li>
@@ -53,14 +52,13 @@ export default function Home() {
                             </ul>
                         </details>
                     </li>
-                    <li><a href={"#skills"}>{t("skills")}</a></li>
                     <li><a href={"#projects"}>{t("projects")}</a></li>
                     <li className={"border border-1 rounded-box border-[#A1AFAC]"}>
                         <details>
                             <summary>{t("language.title")}</summary>
                             <ul className="p-2">
-                                <li><a href={"#who-am-i"}>{t("language.english")}</a></li>
-                                <li><a href={"#experience"}>{t("experience")}</a></li>
+                                <li><a href={"/en"}>{t("language.english")}</a></li>
+                                <li><a href={"/es"}>{t("language.spanish")}</a></li>
                             </ul>
                         </details>
                     </li>
